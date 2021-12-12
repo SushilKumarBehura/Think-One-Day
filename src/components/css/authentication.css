@@ -1,0 +1,371 @@
+
+
+body{
+    font-family: sans-serif;
+    background-color: #000000;
+}
+
+/* ############################## */
+
+/* SIGNUP PAGE STARTS */
+
+.signupform{
+    height: 740px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 3px solid whitesmoke ;
+    /* margin: auto; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.signupform p{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.signupform li{
+    font-size: 16px;
+    margin: 13px 0px;
+    text-align: justify;
+}
+
+.createaccount{
+    margin: 50px 0px 100px;
+}
+
+.createaccount a{
+    color: black;
+    background-color: whitesmoke;
+    font-size: 20px;
+    font-weight: 540;
+    text-decoration: none;
+    border: 3px;
+    border-radius: 30px;
+    padding: 15px 60px;
+}
+
+.createaccount1 p{
+    font-size: 20px;
+    font-weight: normal !important;
+    margin-bottom: 2px;
+}
+
+.createaccount1 a{
+    color: whitesmoke;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* SIGNUP PAGE ENDS */
+
+/* ######################################## */
+
+/* SIGNIN PAGE STARTS */
+
+.signinform{
+    background-color:rgba(0, 0, 0, 0);
+    height: 740px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    border: 3px solid whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.signinform h1{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.signinform input{
+    padding: 17px;
+    background-color:rgba(0, 0, 0, 0);
+    border: 3px solid white;
+    outline: none;
+    color: #d9d9d9;
+    border-radius: 30px;
+    text-align: center;
+    margin: 15px 0px;
+    font-size: 20px;
+}
+
+button{
+    padding: 17px 105px;
+    font-size: 18px;
+    color: #000000;
+    border: none;
+    background-color:#d9d9d9;
+    margin-top: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.signinform p{
+    color: whitesmoke;
+    margin: 30px 0px 60px;
+}
+
+.signinform a{
+    color: white;
+}
+
+.signinform text{
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 18px;
+    padding: 0px 10px;
+}
+
+/* SIGNIN PAGE ENDS */
+
+/* ######################### */
+
+/* THINK KEYWORDS PAGE START */
+
+.thinkkeywordpage{
+    height: 740px;
+    width: 360px;
+    background: rgba(122, 122, 122, 0.6) ;
+    border: 1px solid whitesmoke ;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(36, 34, 34, 0), rgb(128, 119, 119));
+}
+
+.thinkkeywordpage ::placeholder{
+    color: rgb(180, 174, 174);
+}
+
+.thinkkeywordpage input{
+    padding: 17px;
+    background-color:rgba(0, 0, 0, 0);
+    border: 3px solid white;
+    outline: none;
+    color: #d9d9d9;
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px 0px ;
+    font-size: 20px;
+}
+
+.thinkkeywordpage button{
+    background-color: rgb(139, 141, 143);
+    color: white;
+    padding: 20px 80px;
+    font-weight: normal;
+    margin-top: 62px;
+}
+
+.thinkkeywordpage p{
+    color: rgb(44, 43, 43);
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.thinkkeywordpage h1{
+    color: white;
+    padding: 0px 50px;
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.h5here{
+    color: white;
+    margin-top:-50px;
+    padding: 0px 50px;
+    text-align: left;
+}
+
+/* THINK KEYWORDS PAGE END */
+
+/* ############################# */
+
+/* SHOW KEYWORDS AND TIMER PAGE STARTS  */
+
+.showkeyword{
+    height: 740px;
+    width: 360px;
+    background: rgba(122, 122, 122, 0.6) ;
+    border: 1px solid whitesmoke ;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(36, 34, 34, 0), rgb(128, 119, 119));
+}
+
+.showkeyword input{
+    padding: 17px;
+    background-color:rgba(0, 0, 0, 0);
+    border: 3px solid white;
+    outline: none;
+    color: #252323;
+    border-radius: 30px;
+    text-align: center;
+    margin: 15px;
+    margin-bottom: 240px;
+    font-size: 20px;
+}
+
+.showkeyword ::placeholder{
+    color: rgb(180, 174, 174);
+}
+
+.showkeyword p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px 10px;
+    text-align: left;
+}
+
+.showkeyword h2{
+    color: rgb(44, 43, 43);
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.showkeyword button{
+    background-color: rgb(139, 141, 143);
+    color: white;
+    padding: 20px 80px;
+    margin: 0 20px;
+    font-weight: normal;
+}
+
+/* SHOW KEYWORDS AND TIMER PAGE ENDS  */
+
+
+/* WRITE OPINION PAGE STARTS */
+
+.writeopinion{
+    height: 740px;
+    width: 360px;
+    color: white;
+    background: rgba(122, 122, 122, 0.6) ;
+    border: 1px solid whitesmoke ;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(36, 34, 34, 0), rgb(128, 119, 119));
+}
+
+.writeopinion h1{
+    text-align: left;
+    padding: 0px 30px;
+    margin: 90px 0px;
+}
+
+.writeopinion textarea{
+    background-color:rgba(0, 0, 0, 0);
+    border: 3px solid white;
+    outline: none;
+    border-radius: 25px;
+    margin: 0 25px;
+}
+
+.writeopinion ::placeholder{
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.writeopinion button{
+    background-color: rgb(139, 141, 143);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 80px;
+    font-weight: normal;
+    margin: 70px 22px 5px;
+}
+
+.writeopinion p{
+    color: rgb(44, 43, 43);
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* WRITE OPINION PAGE ENDS */
+
+/* #################################### */
+
+/* VIEW ALL POSTS PAGE STARTS */
+
+/* .viewallposts{
+    height: 740px;
+    width: 360px;
+    color: white;
+    background: rgba(122, 122, 122, 0.6) ;
+    border: 1px solid whitesmoke ;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(36, 34, 34, 0), rgb(128, 119, 119));
+}
+
+.viewallposts p{
+    text-align: left;
+    margin: 50px 30px 5px 30px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.viewallposts h2{
+    color: rgb(44, 43, 43);
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 150px;
+} */
+
+/* VIEW ALL POSTS PAGE ENDS */

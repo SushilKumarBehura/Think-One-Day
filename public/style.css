@@ -1,0 +1,8 @@
+/* *{
+    margin: 0;
+}  */
+
+body{
+     /*  Important for particle js. */
+    background-color: black;    
+}
